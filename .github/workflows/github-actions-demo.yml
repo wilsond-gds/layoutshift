@@ -1,4 +1,6 @@
-- name: HTML5 Validator
+name: HTML5 Validator
+on: [push]
+jobs:
   # You may pin to the exact commit or the version.
   # uses: Cyb3r-Jak3/html5validator-action@bd8ee22d3b06b9c9b424e6c03abfbc57a022c374
   uses: Cyb3r-Jak3/html5validator-action@v7.1.0
